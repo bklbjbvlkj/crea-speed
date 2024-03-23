@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* لون خلفية جديد */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.welcome-page {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 200px;
+    height: 150px;
+}
+
+button {
+    padding: 12px 32px; /* تعديل حجم الأزرار */
+    background-color: #007bff; /* لون خلفية الأزرار */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto; /* تعديل المسافة بين الأزرار */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* لون خلفية الأزرار عند التحويم */
+}
+
+.order-item,
+.product-item {
+    margin-bottom: 20px; /* تعديل المسافة بين عناصر الطلب والمنتج */
+    padding: 15px;
+    background-color: #ffc107; /* لون خلفية عناصر الطلب والمنتج */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.status {
+    float: right;
+    margin-left: 20px; /* تعديل المسافة بين النص والرموز */
+    font-size: 18px; /* تكبير حجم النص */
+}
+
+.checkmark {
+    color: #28a745; /* لون علامة الصح */
+}
+
+.cross {
+    color: #dc3545; /* لون علامة الخطأ */
+}
+
+.order-item,
+.product-item {
+    margin-bottom: 20px; /* تعديل المسافة بين عناصر الطلب والمنتج */
+    padding: 15px;
+    border: 2px solid #ced4da; /* إضافة إطار لعناصر الطلب والمنتج */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.status {
+    margin-left: 20px; /* تعديل المسافة بين النص والرموز */
+    font-size: 18px; /* تكبير حجم النص */
+}
+
+.checkmark,
+.cross {
+    display: inline-block; /* جعل علامات الصح والخطأ تظهر في نفس السطر */
+    vertical-align: middle; /* توسيط علامات الصح والخطأ بالنسبة لنص الحالة */
+    font-size: 24px; /* تكبير حجم علامات الصح والخطأ */
+    margin-right: 10px; /* تعديل المسافة بين علامات الصح والخطأ والنص */
+}
+
+.checkmark {
+    color: #28a745; /* لون علامة الصح */
+}
+
+.cross {
+    color: #dc3545; /* لون علامة الخطأ */
+}
